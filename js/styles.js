@@ -4,7 +4,7 @@ let onamga = document.querySelector('.onamga')
 let dustimga = document.querySelector('.dustimga')
 let sevgi = document.querySelector('.sevgi')
 
-select.addEventListener('click' , function(event) {
+select.addEventListener('change' , function(event) {
     let elValue = select.value
     
     if(elValue === 'rasmiy'){
